@@ -11,6 +11,14 @@ This repository contains a E-Commerce app built using the MERN stack. Please fol
 5. Payment methods: PayPal and Stripe
 6. Sign-in and sign-up Page
 
+### Built with
+
+1. TypeScript
+2. MongoDB
+3. Express.js
+4. React.js
+5. Node.js
+
 ### Instructions
 
 1. Clone repo and run ''npm install''
