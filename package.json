@@ -1,10 +1,19 @@
 {
-  "devDependencies": {
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6"
+  "name": "nozama",
+  "description": "e-commerce project",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm --force install  && npm run build  && cd ../frontend && npm install && npm run build",
+    "start": "TG_ALLOW_MIXED=ALLOW  node backend/build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deadlink6261/nozama_E-commerce"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
   }
 }
